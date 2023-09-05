@@ -1,4 +1,4 @@
-**📛Advert Shield** `ver 3.0.1`
+**📛Advert Shield** `ver 3.1.0`
 ===
 
 Advert Shield is an Ad-Blocking/URL/Request Blocking Extension for chrome by (c)killercodes.github.io \n This will blaock all the ads coming from a list of urls which can be managed by end user.
