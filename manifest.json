@@ -1,10 +1,16 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "AdvertShield",
-    "version": "2.9.4",
+    "version": "3.1",
     "description": "AdvertShield is a URL/Request Blocking Extension by (c)killercodes.github.io \n This will blaock all the ads coming from a list",
-    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
-    "background": {
-      "scripts": ["Shield.js"]
-    }    
+    "permissions": ["webRequest", "declarativeNetRequest","declarativeNetRequestFeedback"],
+	"host_permissions" :["http://*/*", "https://*/*"], 
+
+    "declarative_net_request" : {
+        "rule_resources" : [{
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "block_rules.json"
+        }]
+    }
 }
