@@ -5,6 +5,6 @@
     "description": "AdvertShield is a URL/Request Blocking Extension by (c)killercodes.github.io \n This will blaock all the ads coming from a list",
     "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
     "background": {
-      "scripts": ["noads.js"]
+      "scripts": ["Shield.js"]
     }    
 }
