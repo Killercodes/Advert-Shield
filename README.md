@@ -1,4 +1,4 @@
-**📛Advert Shield** `ver 2.9.4`
+**📛Advert Shield** `ver 3.0.1`
 ===
 
 Advert Shield is an Ad-Blocking extension for Chrome. As computing is imporoving so as the webspace and it is getting dangerouse day by day. Although it's always advised to use antivirus and ad-blocker is also must to provide you a plasureful experience like before.
